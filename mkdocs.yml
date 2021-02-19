@@ -1,7 +1,7 @@
-site_name: Mes cours
+site_name: TurboNAS
 
 # Repository
-repo_name: Edition
+repo_name: TurboNAS
 repo_url: https://github.com/louisonsarlinmagnus/cours-isen
 
 nav:
@@ -10,8 +10,6 @@ nav:
   - Communication SSH: comm_ssh.md
   - Multipass: multipass.md
   - Cloud-init: cloud-init.md
-
-
 
 theme: 
   name: material
@@ -54,4 +52,4 @@ extra_javascript:
     - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
     - https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js
 
-copyright: '&copy; 2020 Louison SARLIN--MAGNUS'
+copyright: '&copy; 2021 Louison SARLIN--MAGNUS'

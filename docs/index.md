@@ -29,5 +29,5 @@ Plex et Nextcloud sont dispo comme appliances sur Ubuntu:
 
 # Quick Setup
 
-Sur Windows 10 Pro équipé du WSL Ubuntu:
+Sur Windows 10 Pro équipé du WSL Ubuntu:  
 - Installer Multipass: `sudo snap install multipass`

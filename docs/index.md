@@ -1,6 +1,6 @@
 # Présentation
 
-Ce projet a pour but créer un serveur multimédia **ET** cloud. Les techno retenue sont [**PLEX**](https://www.plex.tv/fr/) et [**NextCloud**](https://nextcloud.com/). Il est envisageable de pouvoir hébergé une webapp ou un server mail.
+Ce projet a pour but créer un serveur à la maison qui me permettra d'accéder à mes fichiers, mes films, mes webapps et un serveur minecraft.
 
 !!! warning "Disclaimer"
     Ceci est un projet personnel et est donc adapté a mes besoins, envie, et moyens.
@@ -18,18 +18,3 @@ Ce projet a pour but créer un serveur multimédia **ET** cloud. Les techno rete
 | Alimentation    | RM750X          |
 
 
-# Principe de fonctionnement
-
-Installer Ubuntu sur la machine.
-Installer Plex et Nextcloud sur Ubuntu.
-
-Plex et Nextcloud sont dispo comme appliances sur Ubuntu:
-
-- [Appliance NEXTCLOUD](https://ubuntu.com/appliance/nextcloud)  
-- [Appliance PLEX](https://ubuntu.com/appliance/plex)
-
-# Quick Setup
-
-Sur Windows 10 Pro équipé du WSL Ubuntu:  
-
-- Installer Multipass: `sudo snap install multipass`

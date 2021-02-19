@@ -10,32 +10,32 @@ users:
 #     name: louison
 #     home: /home/louison
 #     shell: /bin/bash
-#     lock_passwd: True
+#     lock_passwd: true
 #     sudo: ALL=(ALL) NOPASSWD:ALL
 
 network:
   version: 2
   ethernets:
     enp4s0:
-      dhcp4: false
       addresses: [10.0.0.2/24]
       gateway4: 10.0.0.1
-  bridges:
-    brid0:
-      interfaces: [switchports]
-  switchports:
-      match:
-        name: "enp4s0"
+  # bridges:
+  #   brid0:
+  #     interfaces: [switchports]
+  # switchports:
+  #     match:
+  #       name: "enp4s0"
+
 
 # Update server already at launch time
-package_upgrade: true
+# package_upgrade: true
 
 # Install a minimal set of programs
-packages:
-  - vim
-  - mc
-  - wget
-  - curl
-  - ifconfig
+# packages:
+#   - vim
+#   - mc
+#   - wget
+#   - curl
+#   - ifconfig
 
-final_message: "Le systeme est up, après $UPTIME secondes"
+# final_message: "Le systeme est up, après $UPTIME secondes"

@@ -1,6 +1,7 @@
-<center><u><span style="font-size: xx-large;">PROJET NAS</span></u></center>
+# Quick Setup
 
-Ce projet a pour but créer un serveur multimédia **ET** cloud. Les techno retenue sont [**PLEX**](https://www.plex.tv/fr/) et [**NextCloud**](https://nextcloud.com/). Il est envisageable de pouvoir hébergé une webapp ou un server mail.
+Sur Windows 10 Pro équipé du WSL Ubuntu:
+- Installer Multipass: `sudo snap install multipass`
 
 # Liens utiles
 

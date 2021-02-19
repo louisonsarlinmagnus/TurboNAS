@@ -2,7 +2,7 @@ site_name: TurboNAS
 
 # Repository
 repo_name: TurboNAS
-repo_url: https://github.com/louisonsarlinmagnus/cours-isen
+repo_url: https://github.com/louisonsarlinmagnus/TurboNAS
 
 nav:
   - Accueil: index.md

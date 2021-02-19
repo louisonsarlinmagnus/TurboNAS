@@ -2,4 +2,4 @@
 *.iso
 *.pub
 ressources
-ssh-keys
+ssh_keys

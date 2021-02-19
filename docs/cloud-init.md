@@ -29,7 +29,7 @@ Grace à ce script on peut:
     + **PAS** pinger la vm (`ping 10.8.248.188`)
     + Pinger le server (`ping 192.168.1.11`)
 
-Je pense qu'il faudrait exposer la vm sur un port du server. Pour accéder a la vm depuis le réseau il faudrait faire `bind <ip_instance> <no_port>` puis donc `ping <ip_server>:<port_choisi>`
+Je pense qu'il faudrait exposer la vm sur un port du server. Pour accéder a la vm depuis le réseau il faudrait faire `bind <ip_instance> <no_port>` puis donc `#!bash ping <ip_server>:<port_choisi>`
 
 J'ai un problème avec ce code:
 ```yaml
@@ -45,4 +45,4 @@ system_info:
 ```
 
 
-NOTE: On peut remplacer ifconfig par: `alias ifconfig="ip -c a | sed -e 's/\// \//g'"`
+NOTE: On peut remplacer ifconfig par: `#!bash alias ifconfig="ip -c a | sed -e 's/\// \//g'"`

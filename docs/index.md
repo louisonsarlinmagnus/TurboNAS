@@ -23,11 +23,13 @@ Ce projet a pour but créer un serveur multimédia **ET** cloud. Les techno rete
 Installer Ubuntu sur la machine.
 Installer Plex et Nextcloud sur Ubuntu.
 
-Plex et Nextcloud sont dispo comme appliances sur Ubuntu:  
+Plex et Nextcloud sont dispo comme appliances sur Ubuntu:
+
 - [Appliance NEXTCLOUD](https://ubuntu.com/appliance/nextcloud)  
 - [Appliance PLEX](https://ubuntu.com/appliance/plex)
 
 # Quick Setup
 
 Sur Windows 10 Pro équipé du WSL Ubuntu:  
+
 - Installer Multipass: `sudo snap install multipass`

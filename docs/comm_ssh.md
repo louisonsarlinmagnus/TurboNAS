@@ -10,6 +10,7 @@ Une fois les 2 partie Setup réalisée il suffit de se connecter avec la ligne: 
 ## Setup SSH côté Serveur
 
 Il "suffit":
+
 - d'autoriser la connexion par SSH: `sudo ufw allow ssh`
 - de démarrer le service SSH: `sudo systemctl start ssh` ou `sudo service ssh start`
 
@@ -18,5 +19,6 @@ Il "suffit":
 Du côté client j'utilise déjà un Windows Subsystème Linux (Ubuntu 20.04 LTS).
 
 Il "suffit":
+
 - d'autoriser la connexion par SSH: `sudo ufw allow ssh`
 - de démarrer le service SSH: `sudo systemctl start ssh` ou `sudo service ssh start`

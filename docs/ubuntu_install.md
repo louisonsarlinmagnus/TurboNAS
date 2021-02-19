@@ -1,6 +1,6 @@
 # Installation d'Ubuntu
 
-Version choisie: 20.04 LTS Server
+Version choisi: 20.04 LTS Server
 
 ## Etape 1: Création de la clé Bootable
 

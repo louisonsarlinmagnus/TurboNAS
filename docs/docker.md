@@ -63,12 +63,7 @@ Source: [doc Docker](https://docs.docker.com/engine/install/ubuntu/)
         sudo docker-compose --version
         ```
 
-!!! example "Installation de Traefik"
-    ```sh
-    
-    ```
-
-# Utilisations
+# Essai
       
 ??? example "docker-compose.yml"
 
@@ -143,3 +138,39 @@ Source: [doc Docker](https://docs.docker.com/engine/install/ubuntu/)
       mysql-password:
         file: ./secrets/mysql-password.txt
     ```
+
+# Test avec Nextcloud
+
+On va suivre le tuto de [La Grotte du Barbu](https://www.grottedubarbu.fr/nextcloud-docker-traefik/).
+
+On commence par se connecter sur le server (en SSH toujours).
+
+Puis on clone le git repo avec toutes ressources nécessaires:  
+`https://www.grottedubarbu.fr/nextcloud-docker-traefik/`
+
+On se position (`#!sh cd awesome-traefik/traefik`) Puis on modifie le fichier `traefik.yaml`: `#!sh nano traefik.yaml`.  
+Il suffit de changer l'adresse mail en bas du fichier.
+
+Une fois enregistré on peut "lancer" le **docker-compose up**:  
+`#!sh sudo docker-compose up -d`
+
+Ensuite on se déplace dans `nextcloud`: `#!sh cd ../nextcloud`.
+
+On modifie les *secrets* en faisant `echo <secret> > secrets/<fichier.txt>` pour les 3 fichiers (mysql-database.txt, mysql-password.txt, mysql-user.txt).
+
+
+Ensuite on va "lance" le **docker-compose up" en ajoutant des informations:  
+```bash
+NEXTCLOUD_URL=192.168.1.98 \
+NEXTCLOUD_ADMIN_USER=admin \
+NEXTCLOUD_ADMIN_PASSWORD=admin \
+sudo docker-compose up -d
+```
+!!! warning "Attention"
+    L'ajout des paramètres n'a pas été pris en compte et je ne sais pas pourquoi
+
+Puis pour arrêter et supprimer les containers on fait:  
+`#!sh sudo docker-compose stop ` puis `#!sh sudo docker-compose rm`
+
+Enfin on ser replace `#!sh cd ../traefik` et on arrête et supprime les containers:  
+`#!sh sudo docker-compose stop ` puis `#!sh sudo docker-compose rm`

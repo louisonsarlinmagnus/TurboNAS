@@ -31,8 +31,6 @@ Plex et Nextcloud sont dispo comme appliances sur Ubuntu:
 - [Appliance NEXTCLOUD](https://ubuntu.com/appliance/nextcloud)  
 - [Appliance PLEX](https://ubuntu.com/appliance/plex)
 
-
-
 # Installation d'Ubuntu
 
 Version choisie: 20.04 LTS Server

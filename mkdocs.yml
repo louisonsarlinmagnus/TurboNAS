@@ -6,7 +6,7 @@ repo_url: https://github.com/louisonsarlinmagnus/cours-isen
 
 nav:
   - Accueil: index.md
-  - Installation d'Ubuntu: ubunutu_install.md
+  - Installation d'Ubuntu: ubuntu_install.md
   - Communication SSH: comm_ssh.md
   - Multipass: multipass.md
   - Cloud-init: cloud-init.md

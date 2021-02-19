@@ -1,6 +1,5 @@
 *.exe
 *.iso
 *.pub
-rufus_files
-ssh_keys
-images_ubuntu
+ressources
+ssh-keys

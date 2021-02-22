@@ -9,6 +9,10 @@ nav:
   - Installation d'Ubuntu: ubuntu_install.md
   - Communication SSH: comm_ssh.md
   - Docker: docker.md
+  - Services:
+    - Nextcloud: nextcloud.md
+    - Plex: plex.md
+    - Minecraft: minecraft.md
   - Archives:
     - Multipass: multipass.md
     - Cloud-init: cloud-init.md

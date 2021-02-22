@@ -34,18 +34,18 @@ Il "suffit":
     ```
     Création de mon profil
     ```bash
-      sudo hamachi login
-      sudo hamachi set-nick louison
+  sudo hamachi login
+  sudo hamachi set-nick louison
     ```
     Création du réseau
     ```bash
-      sudo hamachi create <Réseau> <mot_de_passe>
+    sudo hamachi create <Réseau> <mot_de_passe>
     ```
     Rejoindre et quitter le réseau
     ```bash
-      hamachi join <Réseau> <mot_de_passe>
-      hamachi list
-      hamachi leave <Réseau>
+    sudo hamachi join <Réseau> <mot_de_passe>
+    sudo hamachi list
+    sudo hamachi leave <Réseau>
     ```
 !!! tip "Explication rapide du réseau"
     ![Réseau Hamachi](https://i.imgur.com/ylnPe63.png)

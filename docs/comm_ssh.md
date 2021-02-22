@@ -22,3 +22,29 @@ Il "suffit":
 
 - d'autoriser la connexion par SSH: `sudo ufw allow ssh`
 - de démarrer le service SSH: `sudo systemctl start ssh` ou `sudo service ssh start`
+
+## Connection par Hamachi via internet
+
+!!! example "Setup d'Hamachi"
+  Installation
+  ```bash
+  wget https://www.vpn.net/installers/logmein-hamachi_2.1.0.198-1_amd64.deb
+  sudo apt -y install ./logmein-hamachi_2.1.0.198-1_amd64.deb
+  sudo hamachi check-update
+  ```
+  Création de mon profil
+  ```bash
+    sudo hamachi login
+    sudo hamachi set-nick louison
+  ```
+  Création du réseau
+  ```bash
+    sudo hamachi create <Réseau> <mot_de_passe>
+  ```
+  Rejoindre et quitter le réseau
+  ```bash
+    hamachi join <Réseau> <mot_de_passe>
+    hamachi list
+    hamachi leave <Réseau>
+  ```
+  

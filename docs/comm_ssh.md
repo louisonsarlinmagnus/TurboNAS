@@ -34,8 +34,8 @@ Il "suffit":
     ```
     Création de mon profil
     ```bash
-  sudo hamachi login
-  sudo hamachi set-nick louison
+    sudo hamachi login
+    sudo hamachi set-nick louison
     ```
     Création du réseau
     ```bash

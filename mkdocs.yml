@@ -10,7 +10,7 @@ nav:
   - Communication SSH: comm_ssh.md
   - Docker: docker.md
   - Tutos:
-    - Docker-compose: docker-compose.md
+    - Docker-compose: tutos/docker-compose.md
   - Services:
     - Nextcloud: nextcloud.md
     - Plex: plex.md

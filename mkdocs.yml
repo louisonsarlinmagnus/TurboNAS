@@ -9,6 +9,8 @@ nav:
   - Installation d'Ubuntu: ubuntu_install.md
   - Communication SSH: comm_ssh.md
   - Docker: docker.md
+  - Tutos:
+    - Docker-compose: docker-compose.md
   - Services:
     - Nextcloud: nextcloud.md
     - Plex: plex.md

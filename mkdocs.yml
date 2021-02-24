@@ -10,6 +10,7 @@ nav:
     - Installation d'Ubuntu: mise_en_route/ubuntu_install.md
     - Communication SSH: mise_en_route/comm_ssh.md
   - Cours:
+    - GitHub CI: cours/github.md
     - Docker: cours/docker.md
     - Kubernetes: cours/kubernetes.md
   - Tutos:

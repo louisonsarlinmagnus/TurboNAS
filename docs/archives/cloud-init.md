@@ -14,8 +14,8 @@ Construction du `fichier.yaml`
 <br>
 <table>
     <tr>
-        <td><img src="/img/code_reso.png" width="350"/></td>
-        <td><img src="/img/reseau.png" width="350"/></td>
+        <td><img src="https://louisonsarlinmagnus.github.io/TurboNAS/img/code_reso.png" width="350"/></td>
+        <td><img src="https://louisonsarlinmagnus.github.io/TurboNAS/img/reseau.png" width="350"/></td>
     </tr>
 </table>
 

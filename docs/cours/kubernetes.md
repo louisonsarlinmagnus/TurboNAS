@@ -76,9 +76,10 @@
         ```bash
         kubectl version -o json
         ```
-    !!! warning "Erreur"
-        A l'exécussion de la dernière commande on reçoit une erreur:
-        ```diff
-        -The connection to the server localhost:8080 was refused - did you specify the right host or port?
-        ```
-        On pense que puisque nous n'avons lancer aucun cluster il ne peut accéder à `#!sh localhost:8080` car il n'y a tout simplement rien
+        
+        !!! warning "Erreur"
+            A l'exécussion de la dernière commande on reçoit une erreur:
+            ```diff
+            -The connection to the server localhost:8080 was refused - did you specify the right host or port?
+            ```
+            On pense que puisque nous n'avons lancer aucun cluster il ne peut accéder à `#!sh localhost:8080` car il n'y a tout simplement rien

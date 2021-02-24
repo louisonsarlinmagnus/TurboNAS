@@ -12,7 +12,7 @@ Il serait possible de monter rapidement un serveur qui répondrait à toutes ces
 Ici vous trouverez:
 
 - De quoi [vous mettre en piste](mise_en_route/ubuntu_install/)
-- Des [cours](cours/docker.md) que nous avons rédiger pour expliquer des technos et des outils
+- Des [cours](cours/docker.md) que nous avons rédigé pour expliquer des technos et des outils
 - Des résumés de [tutos](tutos/docker-compose/) que nous avons suivi pour étoffer nos connaissances
 - L'explication et des détails concernant [les services](services/nextcloud/) que nous souhaitons faire tourner sur le serveur
 - [Des archives](archives/multipass/) sur des technologie ou des méthodes abandonnées

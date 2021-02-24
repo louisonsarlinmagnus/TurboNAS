@@ -1,5 +1,5 @@
 # Kubernetes
-<center><img src="/img/logo_kubernetes.png" width="350"/></td></center>
+<center><img src="https://louisonsarlinmagnus.github.io/TurboNAS/img/logo_kubernetes.png" width="350"/></td></center>
 
 !!! summary "Définitions"
     Kubernetes:

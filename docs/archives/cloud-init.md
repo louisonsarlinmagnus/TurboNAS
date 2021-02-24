@@ -14,8 +14,8 @@ Construction du `fichier.yaml`
 <br>
 <table>
     <tr>
-        <td><img src="https://i.imgur.com/Vn0FSkf.png" width="350"/></td>
-        <td><img src="https://i.imgur.com/sfISPUR.png" width="350"/></td>
+        <td><img src="/img/code_reso.png" width="350"/></td>
+        <td><img src="/img/reseau.png" width="350"/></td>
     </tr>
 </table>
 

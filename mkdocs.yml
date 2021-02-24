@@ -6,18 +6,21 @@ repo_url: https://github.com/louisonsarlinmagnus/TurboNAS
 
 nav:
   - Accueil: index.md
-  - Installation d'Ubuntu: ubuntu_install.md
-  - Communication SSH: comm_ssh.md
-  - Docker: docker.md
+  - Mise en route:
+    - Installation d'Ubuntu: mise_en_route/ubuntu_install.md
+    - Communication SSH: mise_en_route/comm_ssh.md
+  - Cours:
+    - Docker: cours/docker.md
+    - Kubernetes: cours/kubernetes.md
   - Tutos:
     - Docker-compose: tutos/docker-compose.md
   - Services:
-    - Nextcloud: nextcloud.md
-    - Plex: plex.md
-    - Minecraft: minecraft.md
+    - Nextcloud: services/nextcloud.md
+    - Plex: services/plex.md
+    - Minecraft: services/minecraft.md
   - Archives:
-    - Multipass: multipass.md
-    - Cloud-init: cloud-init.md
+    - Multipass: archives/multipass.md
+    - Cloud-init: archives/cloud-init.md
 
 theme: 
   name: material
@@ -60,4 +63,4 @@ extra_javascript:
     - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
     - https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js
 
-copyright: '&copy; 2021 Louison SARLIN--MAGNUS'
+copyright: '&copy; 2021 Louison SARLIN--MAGNUS & Alexandre SAUTET'

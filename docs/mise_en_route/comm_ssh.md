@@ -47,5 +47,3 @@ Il "suffit":
     sudo hamachi list
     sudo hamachi leave <Réseau>
     ```
-!!! tip "Explication rapide du réseau"
-    ![Réseau Hamachi](https://i.imgur.com/ylnPe63.png)

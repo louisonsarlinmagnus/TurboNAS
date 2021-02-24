@@ -1,16 +1,12 @@
 # Docker
+<center><img src="/img/logo_docker.png" width="350"/></td></center>
 
 !!! summary "Définition"
-    > "Docker est un outil qui peut empaqueter une application et ses dépendances dans un conteneur isolé, qui pourra être exécuté sur n'importe quel serveur"
-    > 451 Research
+    Docker est un outil qui peut empaqueter une application et ses dépendances dans un conteneur isolé, qui pourra être exécuté sur n'importe quel serveur.  
+    *451 Research*
 
-Pour déployer une **container docker** nous allons avoir besoin de:
 
-- Installer Docker
-- Obtenir l'**image docker** de l'application
-- Expliciter les paramètres du déploiement (réseaux, mots de passes, volumes)
-
-# Installations
+## Installation
 Source: [doc Docker](https://docs.docker.com/engine/install/ubuntu/)
 
 !!! example "Installation de Docker"
@@ -47,18 +43,3 @@ Source: [doc Docker](https://docs.docker.com/engine/install/ubuntu/)
     sudo apt update && sudo apt-get install docker-ce docker-ce-cli containerd.io
     ```
 
-!!! example "Installation de **docker-compose**"
-
-    Installation
-    ```sh
-    sudo curl -L "https://github.com/docker/compose/releases/download/1.25.3/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-    ```
-    On donne les droits d'exécution
-    ```sh
-    sudo chmod +x /usr/local/bin/docker-compose
-    ```
-
-    !!! tip "Verification"
-        ```sh
-        sudo docker-compose --version
-        ```

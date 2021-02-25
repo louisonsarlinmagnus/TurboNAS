@@ -23,7 +23,22 @@
     >Un service Kubernetes est un groupe de pods travaillant ensemble, l'ensemble des pods qui constituent un service sont définis par un label selector.  
     *Wikipedia*
 
+Kubernetes est l'**orchestrateur** le plus utilisé.
+Kubernetes peut:
+
+- Créer des services applicatifs sur plusieurs conteneurs
+- Planifier leur exécution dans un cluster
+- Garantir leur intégrité
+- Assurer le monitoring
+
+On utilisant Kubernetes on n'a plus qu'a déployer notre code.  
+Kubernetes va s'occuper des courches infrastruture (OS, Stockage, Réseau)
+
+
 ## Installation
+
+!!! warning
+    Est-ce que minikube suffit?
 
 !!! tip "Avant tout mettre a jour le système"
     ```bash
@@ -83,3 +98,13 @@
             -The connection to the server localhost:8080 was refused - did you specify the right host or port?
             ```
             On pense que puisque nous n'avons lancer aucun cluster il ne peut accéder à `#!sh localhost:8080` car il n'y a tout simplement rien
+
+## Utilisation
+
+!!! tip "Vérification"
+    Pour vérifié que minikube est bien installé:
+    ```bash
+    minikube version
+    ```
+
+On lance minikube: `#!bash minikube start`
